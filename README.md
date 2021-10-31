@@ -22,7 +22,7 @@ using System.Text;
 
 using System.Threading.Tasks;
 
-namespace FirstTry
+namespace FirstTry 
 
 {
 
@@ -42,8 +42,14 @@ namespace FirstTry
     
 }
 ```
+## Hello World!
+```makedown
 
+Console.Writeline("Hello World!")
 
+Console.Readline()                    //Writeline与Readline配合使用，实现打印效果。
+
+```
 
 
 
