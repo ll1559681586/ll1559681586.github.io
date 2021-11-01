@@ -45,13 +45,19 @@ namespace FirstTry
 ## Hello World!
 ```makedown
 
-Console.Writeline("Hello World!")
+Console.Writeline("Hello World!");
 
-Console.Readline()                    //Writeline与Readline配合使用，实现打印效果。
+Console.Readline();                    //Writeline与Readline配合使用，实现打印效果。
 
 ```
+## DATA TYPE 数据类型
+```makedown
 
+1.  string--->string characterName="John";           //string字符串 characterName变量名 （引号内必须为英文字母）（必须有双引号）
 
+2.  int------>int characterAge=25;                  //(无需双引号)
 
+3.  char---->char name1=12;                        //(无需双引号)
 
+```
 
