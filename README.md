@@ -45,9 +45,9 @@ namespace FirstTry
 ## Hello World!
 ```makedown
 
-Console.Writeline("Hello World!");
+Console.WriteLine("Hello World!");
 
-Console.Readline();                    //Writeline与Readline配合使用，实现打印效果。
+Console.WriteLine();                    //Writeline与Readline配合使用，实现打印效果。
 
 ```
 
@@ -60,11 +60,11 @@ Console.Readline();                    //Writeline与Readline配合使用，实�
 
 string characterName="Jack";
 
-Console.Writeline("There once was a man named "+characterName);  //引号外 +变量名 ，直接将变量打印在句子最后面
+Console.WriteLine("There once was a man named "+characterName);  //引号外 +变量名 ，直接将变量打印在句子最后面
 
 characterName="Mike";    //从这一行开始，往下的characterName变量的值变成Mike
 
-Console.Writeline("There once was a man named "+characterName+"");  //引号内 "+变量名+"
+Console.WriteLine("There once was a man named "+characterName+"");  //引号内 "+变量名+"
 
 Console.Read();
 
@@ -103,10 +103,22 @@ string phrase="John"+"Mike";  //输出结果会直接在John后面加上Mike
 
 5.    phrase.substring(2,3)  //输出phrase值从第二个字母起的三个字母
 
+```
+## Working with numbers
+```makedown
+Console.WriteLine(3+2) //输出5 其他算法也一样
 
+Console.WriteLine(5/2.0)  //输出2.5  除2的话输出2
+
+Console.WriteLine(Math.Pow(6,2)) //6的2次方
+
+Console.WriteLine(Math.Abs(-6))  //绝对值6
+
+Console.WriteLine(Math.sqrt(36))  //开根号等于6
+
+Console.WriteLine(Math.max(9,90))  //90更大 输出90  只能对比两个数（Min是对立的）
 
 
 
 
 ```
-
