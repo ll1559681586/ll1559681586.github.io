@@ -81,7 +81,32 @@ Console.Read();
 
 4.  double-->double name2=3.3;            //值为小数类型，最常用的小数的数据类型
 
-5.  float和decimal     //float数字后面加F
+5.  float和decimal     //float的小数后面加F,decimal的小数后面加M
+
+6.  bool--->bool isMale=true;  //bool的值可以是ture和false (只有这两种)
+
+```
+## Working with string （string的细节知识点）[详细](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0#methods)
+```makedown
+string phrase="John"+"Mike";  //输出结果会直接在John后面加上Mike
+
+一丶String Methods
+
+变量名.method   [Console.Writeline(phrase.Toupper())]
+1.    phrase.Toupper()和phrase.Tolower()  //phrase的值全变成大写或小写
+
+2.    phrase.contains("")  //双引号内输入字母，如果输入的字母在phrase中有的话就会输出Ture，没有就是False
+
+3.    phrase[0]  //输出phrase的值的第一个字母,1就是输出第二个字母
+
+4.    phrase.Indexof("")  //双引号中输入phrase里有的字母(多位数字母)，会输出这个字母在第几位，双引号改成单引号，里面只能输单个字母  
+
+5.    phrase.substring(2,3)  //输出phrase值从第二个字母起的三个字母
+
+
+
+
+
 
 ```
 
