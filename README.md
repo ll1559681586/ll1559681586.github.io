@@ -122,3 +122,18 @@ Console.WriteLine(Math.max(9,90))  //90更大 输出90  只能对比两个数（
 
 
 ```
+## Getting user input
+```makedown
+ Console.Write("type your name:");   //打印
+ 
+ string name = Console.ReadLine();  //把玩家输入的内容存到name里面，变量类型是string
+ 
+ Console.WriteLine("Hello "+name);  //打印
+ 
+ string age = Console.ReadLine();   //和name一样
+ 
+ Console.WriteLine("Hi " + name +" you are "+age);  //打印
+ 
+ Console.ReadLine();   //readline实际上是为了读取用户输入的数据，把那个黑色界面显示在那里，但这句放在最后的话，不管输入了什么再回车，也只是单纯的读取完了关掉，其他什么都不做。
+
+```
