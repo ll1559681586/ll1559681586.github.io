@@ -137,3 +137,19 @@ Console.WriteLine(Math.max(9,90))  //90更大 输出90  只能对比两个数（
  Console.ReadLine();   //readline实际上是为了读取用户输入的数据，把那个黑色界面显示在那里，但这句放在最后的话，不管输入了什么再回车，也只是单纯的读取完了关掉，其他什么都不做。
 
 ```
+## A simple caculator
+```makedown
+Console.Write("type a number");
+
+int num1 = Convert.ToInt32(Console.ReadLine());     //需要小数计算，把int改成double,ToInt32改成ToDouble
+
+Console.Write("type another number");
+
+int num2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(num1 + num2);
+
+Console.ReadLine();
+
+
+```
